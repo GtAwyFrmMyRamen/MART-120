@@ -31,6 +31,8 @@ function setup()
                 line(350, 240, 330, 280);
                 line(370, 240, 350, 280);
                 line(390, 240, 370, 280);
+                textSize(32);
+                text('Kendrick', 10, 30);
                 
 
             }
