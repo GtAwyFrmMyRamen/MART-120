@@ -1,0 +1,158 @@
+<html>
+<head>
+
+  <style>
+    h1{text-align: center;
+    margin-top: 6%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+</style>
+
+  <style>
+    body{;
+      font-family: 'Courier New', Courier, monospace;
+    }
+  </style>
+  <link rel="stylesheet" type="text/css" href="main">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  
+  
+<title>page3</title>
+
+<video autoplay muted loop id="myVideo">
+  <source src="RevO.mp4" type="video/mp4">
+</video>
+
+<script>
+  function checkboxes()
+  {
+    var firstName = document.getElementById("fName").value;
+    if(firstName == "")
+    {
+      document.getElementById("fName").style.backgroundColor = "red";
+      window.alert("Please enter your full name");
+      document.getElementById("fName").focus();
+    }
+    var Emailladdress = document.getElementById("emailaddress").value;
+    if(Emailladdress == "")
+    {
+      document.getElementById("emailaddress").style.backgroundColor = "red";
+      window.alert("Please enter a valid email");
+      document.getElementById("emailaddress").focus();
+    }
+    var termsofagree = document.getElementById("Terms").checked == 1;
+    if(termsofagree == 0)
+    {
+      var labels = document.getElementsByTagName('LABEL');
+      labels[0].style.color = "red";
+      window.alert("Please accept the terms of agreement");
+    }
+  }
+</script>
+
+<div class="content">
+  <body>
+    <style>
+        body {
+          background-image:  url('https://i.ibb.co/HPhLXrB/IMG-2433.png');
+background-repeat: no-repeat, no-repeat, no-repeat;
+background-position-x: 55%;
+background-position-y: 50%;
+background-size: 100%;
+        }
+        </style>
+</body>
+  <h1 style="background-color: #ac0000;">Contact Me</h1>
+  <center>
+  
+    <text style="font-size:x-large;
+    color: white;"><span style="font-family:'Courier New', Courier, monospace">If you'd like to get in touch, fill out the information below</text></h2>
+    <br><br><br><br> 
+    <body style="font-family:'Courier New', Courier, monospace ;">
+        <text style="font-family:'Courier New', Courier, monospace ;
+        color: white; font-size:larger; background-color: rgba(0, 0, 0, 0.473);">Your Information</text>
+        <p></p>
+        <form action="" onsubmit="return false">
+            <p style="color: white; font-size: small; background-color: rgba(0, 0, 0, 0.473)">First and Last Name: <input type="text" id="fName"></p>
+            <p style="color: white; font-size: small; background-color: rgba(0, 0, 0, 0.473)">Email Adress: <input type="text" id="emailaddress"></p>
+            <input type="checkbox" id="Terms" name="Terms" value="Yes">
+    <label for="Terms" style="color: white; background-color: rgba(0, 0, 0, 0.473)"> Terms of Agreement</label><br>
+          <button class="btn btn-danger" onclick='checkboxes();'>Sumbit My Info</button>
+        </form>
+    </body>
+    
+    <style>
+        </style>
+    <style>
+        h2 span{background-color: #ac0000;}
+    </style>
+    
+    <style>
+        span{background-color: #ac00006b;}
+    </style>
+    
+    <style>
+        h2{color: white;}
+    </style>
+
+<h3 style="color: red;"><p><a href="HelloWorld.html">Homepage</a></p></h3>
+<h3 style="color: red;"><p><a href="page2.html">Short Story</a></p></h3>
+
+    
+    </center>
+
+</div>
+
+<form onsubmit="return false"></form>
+
+</head>
+
+<style>
+  h1{text-align: center;
+      margin-top: 3%;
+</style>
+
+<br> <br> <br> 
+
+<style type="text/css">
+    .centerImage
+    {
+     text-align:center;
+     display:block;
+    }
+    </style>
+
+<style>
+    h3{text-align: left;
+;}
+</style>
+
+<center>
+  
+
+<style>
+    </style>
+<style>
+    h2 span{background-color: #ac0000;}
+</style>
+
+<style>
+    span{background-color: #ac00006b;}
+</style>
+
+<style>
+    h2{color: white;}
+</style>
+
+</center>
+
+<audio autoplay id="myaudio">
+    <source src="An Ally.ogg">
+  </audio>
+  
+  <script>
+    var audio = document.getElementById("myaudio");
+    audio.volume = 0.05;
+  </script>
+
+</html>
